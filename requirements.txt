@@ -1,0 +1,11 @@
+streamlit
+plotly
+openai>=1.30.0
+chromadb
+pandas
+numpy
+PyPDF2
+streamlit-option-menu
+pymongo
+json2table
+python-dotenv

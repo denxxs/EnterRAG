@@ -1,0 +1,91 @@
+# ---- Python artifacts ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+logs/
+log/
+.tmp/
+tmp/
+temp/
+**/__temp__/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/**/cache/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+*.env.*
+.secrets.*
+
+# Data dumps / backups
+backups/
+dump/
+dumps/
+
+# App-specific: uploaded data & outputs (adjust as needed)
+uploads/
+output/
+outputs/
+
+# ChromaDB persistence (adjust to your CHROMA_PERSIST_DIR)
+chroma/
+chroma_db/
+chroma_index/
+.chroma/
+vector_store/
+vector-db/
+
+# Plotly / figures cache
+.figure/
+
+# Node (if any frontend tooling gets added later)
+node_modules/
