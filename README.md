@@ -1,6 +1,6 @@
 # EnterRAG (modularized)
 
-This refactor splits the monolithic `indexv9-working.py` into a modular structure with env-based config, services, utilities, and Streamlit pages.
+This refactor splits the monolithic app into a modular structure with env-based config, services, utilities, and Streamlit pages.
 
 ## Structure
 
@@ -18,7 +18,7 @@ This refactor splits the monolithic `indexv9-working.py` into a modular structur
     - pdf_to_mongo.py — PDF -> MongoDB
     - mongo_audit.py — AI-assisted edit
     - mongo_viewer.py — view Mongo docs
-- indexv9-working.py — Streamlit entry wiring pages
+- index.py — Streamlit entry wiring pages
 - requirements.txt — dependencies
 - .env.example — copy to .env and fill
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 3. Run the app:
 
 ```
-streamlit run indexv9-working.py
+streamlit run index.py
 ```
 
 ## Notes
