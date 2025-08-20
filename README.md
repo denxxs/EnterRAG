@@ -1,6 +1,6 @@
-# EnterRAG (modularized)
+# EnterRAG
 
-This refactor splits the monolithic app into a modular structure with env-based config, services, utilities, and Streamlit pages.
+EnterRAG, refactored.
 
 ## Structure
 
